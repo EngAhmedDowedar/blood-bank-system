@@ -1,0 +1,26 @@
+
+.password-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.toggle-password {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.fa-eye, .fa-eye-slash {
+    font-size: 18px;
+}
+
+/* إضافة التنسيقات الخاصة بحقل كلمة المرور */
+.flex-grow {
+    width: calc(100% - 40px); /* عرض الحقل ليأخذ نفس العرض كحقل البريد الإلكتروني مع مراعاة عرض الزر */
+    padding-right: 40px; /* تباعد لحساب مساحة زر إظهار/إخفاء كلمة المرور */
+}
+
